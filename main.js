@@ -36,11 +36,11 @@ function changeBackground() {
     for(let i of imagesName.keys())
     {
         if(window.innerWidth >= 767) {
-        if(imageDisplayed == i)
-        {
-                landingPage.style.backgroundImage = `url('${imagesName.get(i)}')`
-                changeDots()
-        }
+            if(imageDisplayed == i)
+            {
+                    landingPage.style.backgroundImage = `url('${imagesName.get(i)}')`
+                    changeDots()
+            }
         }
     }
 }
